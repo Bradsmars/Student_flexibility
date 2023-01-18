@@ -7,10 +7,10 @@ import sklearn
 #load a package
 
 # to load
-with open('picklefolder/pipe.pkl', 'rb') as f:
+with open('pipe.pkl','rb') as f:
     pipe = pickle.load(f)
 
-with open('picklefolder/df.pkl', 'rb') as f:
+with open('df.pkl','rb') as f:
     df = pickle.load(f)
 
 st.title("Student flexibility predictor")
